@@ -1,0 +1,23 @@
+
+=======================================================
+  JARVIS — Conversational AI Assistant
+=======================================================
+
+[Jarvis] Starting Telegram bot...
+[Jarvis] Telegram bot running!
+
+[Telegram] Starting Telegram bot...
+[Jarvis] Loading Whisper voice model...
+[Telegram] Bot running!
+[Telegram] Could not send startup message: chat not found. Open your bot in Telegram, send /start, and check TELEGRAM_USER_ID.
+[Jarvis] Mic found: Microphone Array (Realtek(R) Au (device 1)
+[Jarvis] Voice model ready.
+[Jarvis] Good evening, sir. Jarvis reporting in. Shall we wrap up the day together, sir?
+[Jarvis] All systems ready, sir. Just say the word.
+
+[Jarvis] Say 'Hey Jarvis' to talk.
+
+[Jarvis] Waiting for wake word: 'jarvis'...
+[Jarvis] Heard wake check: what time is it?
+[Jarvis] Wake audio detected but no words yet (mean 96, peak 988).
+[Jarvis] Heard wake check: thank you.

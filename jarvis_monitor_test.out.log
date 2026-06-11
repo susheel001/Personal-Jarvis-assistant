@@ -1,0 +1,19 @@
+
+=======================================================
+  JARVIS — Conversational AI Assistant
+=======================================================
+
+[Jarvis] Using Windows SAPI voice.
+[Jarvis] Starting Telegram bot...
+[Jarvis] Telegram bot running!
+[Telegram] Starting Telegram bot...
+
+[Jarvis] Starting PC monitor...
+[Jarvis] PC monitor running!
+
+[Jarvis] Loading Whisper voice model...
+[Monitor] PC activity monitoring started...
+[Telegram] Bot running!
+[Jarvis] Mic found: Microphone Array (Realtek(R) Au (device 1)
+[Jarvis] Voice model ready.
+[Jarvis] Good morning, sir. Jarvis reporting for duty. I hope you slept well, sir.
