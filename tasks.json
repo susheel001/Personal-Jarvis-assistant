@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Review Jarvis status",
+    "status": "pending",
+    "repeat": "daily",
+    "remind_time": "09:00",
+    "last_reminded": "2026-06-11"
+  },
+  {
+    "title": "Add NEWSAPI_KEY to .env",
+    "status": "pending",
+    "repeat": "daily",
+    "remind_time": "10:00",
+    "last_reminded": "2026-06-11"
+  },
+  {
+    "title": "take my",
+    "status": "pending",
+    "repeat": "daily",
+    "date": "",
+    "remind_time": "09:00",
+    "last_reminded": "2026-06-11"
+  },
+  {
+    "title": "end",
+    "status": "pending",
+    "repeat": "daily",
+    "date": "",
+    "remind_time": "09:00",
+    "last_reminded": "2026-06-11"
+  },
+  {
+    "title": "i want to website portfolio",
+    "status": "pending",
+    "repeat": "daily",
+    "date": "",
+    "remind_time": "09:00",
+    "last_reminded": "2026-06-11"
+  }
+]

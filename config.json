@@ -1,0 +1,66 @@
+{
+  "wake_word": "wakeup jarvis",
+  "whisper_model": "base",
+  "groq_model": "llama-3.3-70b-versatile",
+  "voice": {
+    "wake_engine": "vosk",
+    "wake_phrases": [
+      "wakeup jarvis",
+      "wakeup daddy's home"
+    ],
+    "command_engine": "whisper",
+    "microphone_device_index": null,
+    "preferred_mic_keywords": [
+      "microphone array",
+      "realtek"
+    ],
+    "require_wake_phrase": true,
+    "vosk_model_path": "D:\\Personal Jarvis\\models\\vosk-model-small-en-us-0.15",
+    "min_record_seconds": 0.8,
+    "command_start_grace_seconds": 2.5,
+    "max_command_seconds": 8,
+    "silence_duration_seconds": 1.2
+  },
+  "monitor": {
+    "enabled": true,
+    "send_screenshot_on_activity": true,
+    "activity_alert_cooldown_seconds": 300,
+    "check_interval_seconds": 5
+  },
+  "whatsapp": {
+    "enabled": true,
+    "host": "0.0.0.0",
+    "port": 5005,
+    "graph_api_version": "v25.0",
+    "autoreply_enabled": true,
+    "telegram_logs_enabled": true
+  },
+  "workspace": [
+    {
+      "name": "VS Code",
+      "type": "app",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "name": "Chrome",
+      "type": "app",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "name": "Spotify",
+      "type": "app",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Spotify\\Spotify.exe"
+    },
+    {
+      "name": "Claude",
+      "type": "url",
+      "url": "https://claude.ai"
+    }
+  ],
+  "commands": {
+    "wake_screen": ["wake up", "wake the screen", "turn on screen", "wake screen"],
+    "unlock": ["open the password", "unlock", "enter password", "login"],
+    "open_workspace": ["open my workspace", "open workspace", "start my workspace", "launch workspace"],
+    "sleep": ["go to sleep", "sleep", "lock screen", "lock the screen"]
+  }
+}
